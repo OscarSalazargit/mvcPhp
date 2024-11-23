@@ -1,0 +1,78 @@
+/* TAMAÑOS */
+.btn{
+    cursor: pointer;    
+    transition: all 300ms ease-in-out;
+}
+
+.btn__mini{
+    cursor: pointer;
+    height: 2rem;
+    min-width: 4rem;
+    margin: 10px;
+    border-radius: 10px;  
+    transition: all 300ms ease-in-out;  
+}
+
+.btn:hover,
+.btn__mini:hover{
+    transform: translateY(-5px);
+}
+
+
+/* COLORES */
+
+
+.btn__green,
+.btn__red{
+    padding-left: 5px;
+    padding-right: 5px; 
+    box-shadow: 5px 5px 8px var(--color-gris);    
+}
+.btn__red{
+    color: var(--color-blanco);
+    background-color: var(--color-rojo);
+    border: 1px solid var(--color-rojo-oscuro);    
+}
+.btn__green{
+    color: var(--color-blanco);
+    background-color: var(--color-verde);
+    border: 1px solid var(--color-verde-oscuro);    
+}
+.btn__red:hover{
+    color: var(--color-rojo);
+    background-color: var(--color-blanco);
+}
+.btn__green:hover{
+    color: var(--color-verde);
+    background-color: var(--color-blanco);
+}
+
+
+
+/****************** BOTONES DEL INDEX **************/
+
+.botoneras__container{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 800px;
+    margin: 20px auto;
+    font-size: 2rem;
+    padding: 30px;
+    color: var(--color-gris);
+    
+}
+.btn,
+.btn-a{
+    text-decoration: none;
+    height: 3rem;
+    border: 2px solid var(--color-gris);
+    border-radius: 15px;
+    font-size: 1.5rem;
+    line-height: 3rem;
+    margin: 10px;
+    text-align: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    box-shadow: 10px 10px 7px var(--color-gris);
+}

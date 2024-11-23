@@ -1,0 +1,26 @@
+:root{
+    --color-rojo-claro: #ff6456;
+    --color-rojo:#E03D2D;
+    --color-rojo-oscuro:#7e251c;
+    --color-azul-claro: rgba(34, 229, 255, 0.874);
+    --color-azul: rgb(58, 38, 187);
+    --color-azul-oscuro: rgb(23, 9, 112);
+    --color-verde:#2DE07D;
+    --color-verde-oscuro:#478F67;
+    --color-gris:#635A5A;
+    --color-negro: #353D39;
+    --color-blanco:#E8EAF6;
+    --color-blanco-oscuro:#d0d2dd;
+}
+@font-face {
+    font-family: kanit;
+    src: url('../fonts/Kanit-Regular.ttf');
+}
+@font-face {
+    font-family: kanit-bold;
+    src: url('../fonts/Kanit-Bold.ttf');
+}
+@font-face {
+    font-family: kanit-light;
+    src: url('../fonts/Kanit-Light.ttf');
+}

@@ -1,0 +1,42 @@
+.usuario__formulario{
+    border: 2px solid var(--color-gris);
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 30px;
+}
+.table__usuarios{
+    padding: 20px;
+    border-collapse: collapse;
+    width: 80%;
+    margin: 0 auto;
+}
+.table__header{
+    text-align: left;
+    padding-left: 20px;
+    padding-bottom: 7px;
+    font-size: 1.2rem;
+    color: var(--color-negro);
+    letter-spacing: 3px;
+}
+.table__item {
+    text-align: left;
+    padding-left: 15px;
+    margin: 2px;
+}
+  
+  tr:nth-child(even) {
+    background-color: var(--color-blanco)
+  }
+  tr:nth-child(odd){
+    background-color: var(--color-gris-claro);
+  }
+  
+  .mini-pic{
+    width: 100px;
+    max-height: 100px;
+    size: cover;
+  }
+
+.message{
+  text-align: center;
+}

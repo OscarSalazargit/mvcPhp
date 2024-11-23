@@ -1,0 +1,90 @@
+/* Bloque formulario */
+.formulario {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+  /* min-height: 100vh; */
+  padding: 20px;
+  margin-top: 50px;
+}
+.formulario__fieldset{
+  padding: 10px;
+}
+.formulario__legend{
+  padding: 15px;
+}
+
+.formulario__titulo {
+  text-align: center;
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.formulario__form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* Elementos del formulario */
+.formulario__campo {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.formulario__label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #555;
+}
+
+.formulario__input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+  transition: border-color 0.3s;
+}
+
+.formulario__input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.formulario__boton {
+  padding: 10px;
+  margin-top: 15px;
+  font-size: 1rem;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.formulario__boton:hover {
+  background-color: #0056b3;
+}
+
+
+/*Especifico de email*/
+.mail__confirm{
+  margin-top: 10px;
+  background-color: rgb(250, 174, 146);
+}
+.mail__confirm__answer{
+  text-align: center;
+}
+.mail__recived{
+  padding-left: 15px;
+}
+.recived__item{
+  list-style: none;
+}

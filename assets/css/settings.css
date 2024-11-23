@@ -1,0 +1,9 @@
+:root{
+    --color-primario: rgb(72, 144, 82);
+    --color-secundario: rgb(212, 255, 207);
+}
+.btn__neutro{
+    background-color: var(--color-secundario);
+    color: var(--color-primario);
+    box-shadow: 5px 5px 8px var(--color-gris);
+}

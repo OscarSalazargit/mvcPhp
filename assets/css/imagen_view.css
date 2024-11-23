@@ -1,0 +1,23 @@
+.cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+    max-width: 80%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.card{
+    max-width: 450px;
+    box-shadow: 10px 10px 17px rgb(96, 96, 96);
+}
+.card__title{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.card__imagen{
+    width: 100%;
+    object-fit: cover;
+    max-height: 450px;
+}
